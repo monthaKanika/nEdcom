@@ -1,0 +1,105 @@
+|-app
+	|-Console
+		|-Kernel.php
+	|-Exceptions
+		|-Handler.php
+	|-Http
+		|-Controllers
+			|-Auth
+				|-ForgotPasswordController.php
+				|-LoginController.php
+				|-RegisterController.php
+				|-ResetPasswordController.php
+				|-VerificationController.php
+			|-AdminAccountController.php
+			|-Controller.php
+			|-ForumController.php
+			|-HomeController.php
+			|-OpportunityPageController.php
+			|-OpprotunityPagePostController.php
+			|-UserController.php
+			|-UserEducationController.php
+			|-UserFollowController.php
+			|-UserProfileController.php
+			|-UserVoluneteerExpsController.php
+			|-UserWorkExpsController.php
+		|-Middleware
+		|-Kernel.php
+	|-Providers
+	|-Answer.php
+	|-AnswerVote.php
+	|-OpportunityPage.php
+	|-OpportunityPagePost.php
+	|-Permission.php
+	|-Question.php
+	|-QuestionTag.php
+	|-QuestionVote.php
+	|-Role.php
+	|-Tag.php
+	|-TagUserFollow.php
+	|-User.php
+	|-UserEducation.php
+	|-UserFollow.php
+	|-UserProfile.php
+	|-UserTag.php
+	|-UserVolunteer.php
+	|-UserWorkExp.php
+|-bootstrap
+|-config
+|-database
+|-public
+|-resources
+	|-js
+	|-lang/en
+	|-sass
+	|-views
+		|-admin
+			|-account
+			|-includes
+			|-layouts
+			|-index.blade.php
+			|-setting.blade.php
+		|-auth
+			|-layouts
+			|-passwords
+			|-login.blade.php
+			|-register.blade.php
+			|-verify.blade.php
+		|-forum
+			|-forum-home.blade.php
+			|-forum-question-detail.blade.php
+			|-forum-post-by-tags.blade.php
+			|-index.blade.php
+		|-includes
+		|-user
+			|-education
+			|-layout
+			|-opportunity
+			|-profile
+			|-volunteer
+			|-work_experience
+			|-home.blade.php
+		|-vendor
+		|-welcome.blade.php
+|-routes
+	|-api.php
+	|-channels.php
+	|-console.php
+	|-forum_routes.php
+	|-web.php
+|-storage
+|-tests
+|-.editorconfig
+|-.env
+|-.gitattribute
+|-.gitignore
+|-README.md
+|-artisan
+|-composer.json
+|-composer.lock
+|-package-lock.json
+|-package.json
+|-phpunit.dusk.xml
+|-phpunit.xml
+|-server.php
+|-webpack.mix.js
